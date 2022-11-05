@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/24d146ff87.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calendário de Jogos - NLW Copa</title>
+  </head>
+  <body class="">
+    <div id="app">
+      <header>
+        <img src="./assets/logo.svg" alt="" />
+      </header>
+      <div class="container">
+        <button class="btn-blue btn btnBlue" id="btnBlue" onclick="trocarcor(id)">
+          <i class="fa-solid fa-flag"></i>
+        </button>
+        
+        <button class="btn-yellow btn" id="btnYellow" onclick="trocarcor(id)">
+          <i class="fa-solid fa-flag"></i>
+        </button>
+
+        <button class="btn-green btn" id="btnGreen" onclick="trocarcor(id)">
+          <i class="fa-solid fa-flag"></i>
+        </button>
+      </div>
+      <main id="cards"></main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

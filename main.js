@@ -1,4 +1,4 @@
-function trocarcor(id) {
+function changeColor(id) {
   if (id == "btnBlue") {
       document.getElementsByTagName("body")[0].classList = "blue"
   }
